@@ -37,9 +37,8 @@ Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) di komputer Anda.
 5. Buka `http://localhost:3000` di browser Anda.
 
 ## 👨‍💻 Informasi Mahasiswa
-- **Nama**: (Isi nama Anda di sini / Rendi Ramadhani)
-- **NPM / NIM**: (Isi NPM/NIM Anda)
+- **Nama**: Muhammad Rendy Ramadhani
+- **NPM / NIM**: 253140707111058
 - **Tugas**: Pertemuan 12 & 13
 
 ---
-*Dibuat menggunakan React.js*
