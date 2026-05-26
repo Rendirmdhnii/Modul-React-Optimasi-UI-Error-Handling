@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Tugas Pertemuan 12/13 - Modul React: Optimasi UI & Error Handling
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repository ini berisi hasil pengerjaan tugas pertemuan 12 dan 13 mengenai optimasi antarmuka (UI) dan penanganan error pada aplikasi React.
 
-## Available Scripts
+## 📝 Deskripsi Proyek
+Proyek ini merupakan aplikasi **Product Dashboard** yang mengimplementasikan berbagai teknik lanjutan dalam React untuk meningkatkan performa dan stabilitas aplikasi. 
 
-In the project directory, you can run:
+Konsep utama yang diterapkan pada proyek ini meliputi:
+- **Error Boundaries**: Untuk menangkap error pada komponen sehingga aplikasi tidak *crash* sepenuhnya dan dapat menampilkan pesan error (*fallback UI*).
+- **Performance Optimization**: 
+  - `React.memo`: Mencegah proses *render* ulang yang tidak perlu pada komponen.
+  - `useMemo`: Melakukan *caching* pada hasil komputasi data agar lebih cepat.
+  - `useCallback`: Menghindari pembuatan ulang fungsi pada setiap proses render.
+- **Concurrent Features & Responsiveness**: Penggunaan fitur seperti `useTransition` dan `Suspense` untuk menjaga antarmuka tetap responsif.
+- **Custom Hooks**: Memisahkan logika aplikasi agar struktur komponen lebih rapi.
 
-### `npm start`
+## 🚀 Cara Menjalankan Aplikasi (Lokal)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) di komputer Anda.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/Rendirmdhnii/Modul-React-Optimasi-UI-Error-Handling.git
+   ```
+2. Masuk ke direktori proyek:
+   ```bash
+   cd Modul-React-Optimasi-UI-Error-Handling
+   ```
+3. Install *dependencies*:
+   ```bash
+   npm install
+   ```
+4. Jalankan aplikasi:
+   ```bash
+   npm start
+   ```
+5. Buka `http://localhost:3000` di browser Anda.
 
-### `npm test`
+## 👨‍💻 Informasi Mahasiswa
+- **Nama**: (Isi nama Anda di sini / Rendi Ramadhani)
+- **NPM / NIM**: (Isi NPM/NIM Anda)
+- **Tugas**: Pertemuan 12 & 13
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Dibuat menggunakan React.js*
