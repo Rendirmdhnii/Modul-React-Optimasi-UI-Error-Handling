@@ -1,0 +1,14 @@
+import React from "react";
+
+const SkeletonLoader = () => {
+  return (
+    <div className="skeleton-card">
+      <div className="skeleton skeleton-image"></div>
+      <div className="skeleton skeleton-title"></div>
+      <div className="skeleton skeleton-text"></div>
+      <div className="skeleton skeleton-price"></div>
+    </div>
+  );
+};
+
+export default SkeletonLoader;
